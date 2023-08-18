@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{box-sizing: border-box;}
+
+body{font-family: "Trebuchet MS", sans-serif;
+background-color: #CCCCCC}
+
+#kaffee_wrapper{background-color: #E9AD15;
+background-image:url("../img/kaffee_sp_02.jpg");
+background-size: 50%;
+background-position: right top;
+background-repeat: no-repeat;
+width: 500px;
+height: 500px;
+margin: 3.125rem auto;}/*3.125rem here =50px*/
+
+.kaffee_header{
+	background-color:rgba(107,15,16,0.40);
+	font-size: 350%;
+	text-align: center;
+	color: #fff;
+	padding-top: 5rem;
+}
+.untertitel{
+	font-size: 45%
+}
+.kaffee_navi{
+	background-color: #c5b2a3;
+	padding: 1rem;
+}
+
+.kaffee_navi a{
+	background-color: #AA907B;
+	display: block;
+	padding: 0.4rem;
+	margin-bottom: 5px;
+	transition: padding-left 0.5s;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+.kaffee_navi a:hover{padding-left: 40px;}
+.kaffee_header, .kaffee_navi{
+	width: 50%;
+	height: 50%;
+}
+

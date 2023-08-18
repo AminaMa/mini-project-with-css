@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing: border-box;}
+
+.container{
+		background-color: darkblue;
+
+	font-family:  "Trebuchet MS", Verdana, sans-serif;
+	background-image: url("../img/layout_testserver_start_hintergrund.jpg");
+	background-size: cover;
+	width: 31.25rem; /*500px*/
+	height: 31.25rem;
+	position: relative;
+	
+}
+
+
+
+
+nav a{
+		/*background-color: red;*/	
+	background-image: url(../img/hand01.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+	display: block;
+	position: absolute;
+	text-decoration: none;
+    line-height: 1.9;
+	color:#B56291;
+	font-weight: bold;
+    transform: rotate(11deg);
+	
+	
+}
+
+nav a:nth-of-type(1){
+	/*background-color: blueviolet; */   	
+	top: 0.1875rem;  /*3px*/
+    left: 18.75rem;   /*300px*/
+    font-size: 140%;
+    padding-left: 3.7rem ;    /*58px*/
+}
+nav a:nth-of-type(2){
+    top: 2.4375rem;  /*39px*/
+    left: 18.375rem; /*294px*/
+    padding-left: 2.9rem;   /*46px*/
+}
+nav a:nth-of-type(3){
+    top: 4.2rem;  /*67px*/
+    left: 18.1rem;  /*289px*/
+    padding-left: 3rem;   /*47px*/  
+}
+nav a:nth-of-type(4){
+    top: 6rem;  /*96px*/
+    left: 17.75rem;  /*284px*/
+    padding-left: 3.1rem;  /*49px*/   
+}
+nav a:nth-of-type(5){
+    top: 7.7rem; /*122px*/
+    left: 17.4rem;  /*278px*/
+    padding-left: 5rem ;    /*79px*/
+}
+nav a:nth-of-type(6){
+    top: 9.5rem;  /*152px*/
+    left: 17.125rem; /*274px*/
+    padding-left: 5.25rem;    /*84px*/ 
+}
+
+
+.u_strich:hover{
+	border-bottom: 1px solid #4B4A4A;
+	color: #2A9C29;
+}
+
+	
+
+/*#####################   end nav a  #####################*/
+
+h1{
+/*background-color: aqua;*/ 
+	position: absolute;
+    font-size: 150%;
+    padding-left: 8.25rem;  /*132px*/
+   /* padding-top: 12.9rem;*/  /*207px*/
+	margin-top: 14rem; 
+    font-style: italic;
+    color: #c36b9d;
+    text-shadow: 1px 2px #000; 
+	
+	}
+/*#####################   end h1  #####################*/
+
+.name{
+	/*background-color: rgba(215,149,83,0.38);*/
+	position: absolute;
+    top: 18.75rem;  /*300px*/
+    left: 7.2rem;   /*118px*/
+    transform: rotate(346deg);
+    font-family: 'Solitreo', cursive;
+    color: #7d4163;
+    font-weight: bold;
+    font-size: 115%;
+    line-height: 0.6;
+	}
+.name p:nth-of-type(2){
+	padding-left: 1rem;  /*14px*/
+}
+
+/*#####################   end name #####################*/
+
+
+footer{
+	/*background-color: darkgoldenrod;*/
+	position: absolute;
+    bottom: 6.6rem;  /*105px*/
+    left: 22.5rem;  /*360px*/
+    padding-left: 1rem;  /*16px*/
+    background-image: url("../img/pfeil01.png");
+    background-repeat: no-repeat;
+    font-size: 0.8125rem;  /*13px*/
+    font-weight: 900;
+    color: #7d4163;
+
+}
+footer a{
+	/*background-color: red;*/
+	color: #A35782;
+	text-shadow: 0.5px 0.5px #000 ;
+	text-decoration: none;
+}
+
+
+footer a:hover{
+	color: #2A9C29;
+}
+
+/*#####################   end footer  #####################*/

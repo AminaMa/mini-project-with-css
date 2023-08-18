@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+
+/* CSS Document für das Beispiel eigene Website auf dem Testserver */ 
+
+*		{ box-sizing:border-box;} 
+
+
+body	{ background-color:#dedede;
+		  font: 100% "Trebuchet MS", Segoe, "Segoe UI", "DejaVu Sans",  Verdana, sans-serif;
+}
+			
+#wrapper
+		{ background-color:rgba(244,203,84,1.00);
+			background-image: url("../img/wallpaper-responsive-webdesign-braunsdchweig-1.jpg");
+			width:500px;
+			height:500px;
+			margin:50px auto;
+		
+			
+					
+}
+
+h1{ 
+	text-align: center;
+    color: rgba(213 154 23);
+    padding-top: 9px;
+    font-size: 1.8rem;
+
+}
+
+h1, h3, .datum, .alfa{
+	margin-left: 5px;
+}
+
+
+.nav_top , .nav_mitte, .links nav{
+	
+	display: flex;	
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+	
+}
+.nav_top a, .nav_mitte a, .links a{
+	background-color: #ccc;
+	color:rgba(33,75,233,1.00);
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 5px;
+	width: calc(95%/3);
+	border: 2px solid rgba(65,64,64,1.00);
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+}                                                                      
+
+.nav_top a:hover, .nav_mitte a:hover, .links a:hover{
+	background-color: #fff;
+	
+}
+
+.links a{
+	width: calc(95%/5);
+	margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+			
